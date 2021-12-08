@@ -1,0 +1,63 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Id's */
+#container {
+    min-width: 50%;
+    padding: 2rem;
+}
+
+/* Class */
+.purple {
+    color: #8257E5;
+}
+
+.space-text {
+    margin-top: 0.5625rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+/* Selector's */
+body {
+    background: #121214;
+}
+
+section {
+    margin-top: 3.125rem;
+}
+
+p {
+    font: normal 400 0.875rem 'spartan', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-family: 'DM sans', sans-serif;
+    color: #08C05E;
+}
+
+label {
+    color: #A8A8A8;
+}
+
+input[type=email] {
+    height: 3rem;
+    width: 30rem;
+    border-left: solid 4px #08C05E;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
